@@ -1,14 +1,24 @@
 # Assets
 
-此目录预留给参考图、示例生成图与风格对照图。
+此目录存放风格预览图、示例图与后续生成结果。
 
-建议文件命名：
+## 当前预览图
+
+- `xiamen-style-reference.svg`：厦门基础风格预览，展示复古纸质地图、立体海岛城市、地标微缩沙盘与移轴效果。
+- `xiamen-infrastructure-reference.svg`：厦门基础设施强化预览，展示高崎机场、翔安机场、港口、跨海桥与交通系统。
+
+这两张图会直接显示在仓库首页 README 中，便于第一次打开仓库的人快速理解目标画风。
+
+## 后续建议
+
+可以继续补充真实模型输出图，例如：
 
 ```text
-xiamen-reference.png
-xiamen-infrastructure.png
-beijing-reference.png
-style-comparison-01.png
+xiamen-generated-01.webp
+beijing-generated-01.webp
+shanghai-generated-01.webp
+chongqing-generated-01.webp
+style-comparison-01.webp
 ```
 
-当前仓库核心能力不依赖图片文件即可使用；如后续加入参考图，建议在对应 `examples/*.md` 中注明用途与版本。
+如果后续加入真实生成图，优先保留高分辨率原图，同时再提供较小的 WebP 预览版本，避免 README 加载过慢。
