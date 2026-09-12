@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Xiamen infrastructure diorama map preview</title>
+  <desc id="desc">Vintage paper map showing Xiamen as a miniature 3D city with Gaoqi Airport, Xiangan Airport, harbor, bridge, Gulangyu and coastal infrastructure.</desc>
+  <defs>
+    <linearGradient id="paper2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eadfc5"/><stop offset="1" stop-color="#c9b894"/></linearGradient>
+    <linearGradient id="water2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7aa4a8"/><stop offset="1" stop-color="#416f78"/></linearGradient>
+    <linearGradient id="land2" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8e9e72"/><stop offset="1" stop-color="#667d5d"/></linearGradient>
+    <filter id="shadow2" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-opacity=".28"/></filter>
+    <pattern id="grain2" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r=".8" fill="#6d5d46" opacity=".10"/><circle cx="14" cy="10" r=".6" fill="#fff" opacity=".14"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#paper2)"/>
+  <rect width="1200" height="760" fill="url(#grain2)"/>
+  <g opacity=".24" fill="none" stroke="#8c7458" stroke-width="2">
+    <path d="M50 123c140-53 246-23 361-5 122 20 242-22 356-18 134 5 226 55 375 7"/>
+    <path d="M76 643c136-80 258-53 371-90 126-42 229-40 346 6 112 44 214 58 350 8"/>
+    <path d="M170 70l120 620M465 55l70 640M815 65l-15 620M1060 95l-83 565" stroke-dasharray="7 9"/>
+  </g>
+
+  <path d="M0 375c103-42 204-38 296 9 84 43 165 47 250 6 109-53 209-65 315-28 92 33 198 51 339 9v389H0z" fill="url(#water2)"/>
+  <path d="M0 367c103-38 204-33 296 13 84 42 166 46 250 5 108-53 210-64 315-27 94 33 198 50 339 8" fill="none" stroke="#ece8d7" stroke-width="4" opacity=".68"/>
+
+  <g filter="url(#shadow2)">
+    <path d="M278 325c77-74 177-105 290-95 118 11 222 58 280 136-69 56-152 87-257 95-129 9-238-22-313-136z" fill="url(#land2)"/>
+    <path d="M309 321c62-55 146-81 239-73 98 8 183 42 241 100-59 43-127 67-211 73-106 8-198-15-269-100z" fill="#75906a"/>
+  </g>
+
+  <g filter="url(#shadow2)">
+    <g transform="translate(143 163)">
+      <rect x="0" y="0" width="310" height="102" rx="9" fill="#9c8e75"/>
+      <rect x="18" y="18" width="274" height="24" fill="#565b5a"/>
+      <rect x="18" y="59" width="274" height="24" fill="#565b5a"/>
+      <g fill="#f3eee2"><path d="M55 30l24 8-24 8 6-8z"/><path d="M170 72l24 8-24 8 6-8z"/></g>
+      <rect x="109" y="40" width="93" height="22" rx="3" fill="#d8c7a8"/>
+      <rect x="132" y="21" width="9" height="20" fill="#ded5c5"/><circle cx="136.5" cy="18" r="5" fill="#ded5c5"/>
+      <text x="155" y="127" text-anchor="middle" font-size="22" font-family="Georgia,serif" fill="#272721">Gaoqi Airport 高崎机场</text>
+    </g>
+    <g transform="translate(790 121)">
+      <rect x="0" y="0" width="338" height="112" rx="9" fill="#9a8d76"/>
+      <rect x="17" y="17" width="304" height="25" fill="#565b5a"/>
+      <rect x="17" y="70" width="304" height="25" fill="#565b5a"/>
+      <g fill="#f3eee2"><path d="M68 29l27 8-27 8 7-8z"/><path d="M218 82l27 8-27 8 7-8z"/></g>
+      <path d="M118 46h112l23 20H98z" fill="#d8c7a8"/>
+      <rect x="174" y="22" width="9" height="25" fill="#ded5c5"/><circle cx="178.5" cy="18" r="5" fill="#ded5c5"/>
+      <text x="169" y="138" text-anchor="middle" font-size="22" font-family="Georgia,serif" fill="#272721">Xiang'an Airport 翔安机场</text>
+    </g>
+  </g>
+
+  <g stroke="#ae664d" stroke-width="5" fill="none" opacity=".92">
+    <path d="M330 373c133-26 283-14 443 31"/>
+    <path d="M436 282c39 85 87 125 144 164"/>
+    <path d="M719 278c-7 66 10 117 42 168"/>
+  </g>
+
+  <g filter="url(#shadow2)">
+    <g fill="#eee6d7" stroke="#7e6c56" stroke-width="1.4">
+      <rect x="504" y="284" width="26" height="81"/><rect x="542" y="265" width="29" height="100"/><rect x="584" y="295" width="23" height="70"/>
+      <rect x="629" y="273" width="29" height="92"/><rect x="675" y="305" width="24" height="60"/>
+    </g>
+    <g transform="translate(712 236)">
+      <path d="M0 133L20 13h47l14 120z" fill="#9db9ba"/>
+      <path d="M75 133L94 0h47l15 133z" fill="#78999c"/>
+      <path d="M20 13L36 0h46L67 13zM94 0l15-13h46L141 0z" fill="#dbe5df"/>
+    </g>
+  </g>
+
+  <g transform="translate(184 530)" filter="url(#shadow2)">
+    <ellipse cx="83" cy="47" rx="102" ry="49" fill="#6c875f"/>
+    <g fill="#d8c5a7"><rect x="28" y="22" width="35" height="27"/><rect x="75" y="17" width="38" height="30"/><rect x="125" y="27" width="34" height="25"/></g>
+    <g fill="#9d4e39"><path d="M24 22l22-13 22 13z"/><path d="M71 17l23-14 23 14z"/><path d="M121 27l21-13 21 13z"/></g>
+    <text x="83" y="113" text-anchor="middle" font-size="22" font-family="Georgia,serif" fill="#1e2927">Gulangyu 鼓浪屿</text>
+  </g>
+
+  <g transform="translate(852 487)">
+    <rect x="0" y="38" width="190" height="18" fill="#b7aa8d"/>
+    <rect x="24" y="13" width="12" height="42" fill="#d6c8a7"/><rect x="79" y="6" width="12" height="49" fill="#d6c8a7"/><rect x="136" y="17" width="12" height="38" fill="#d6c8a7"/>
+    <path d="M27 14l16-9 17 9M82 7l17-10 17 10M139 18l16-9 16 9" fill="none" stroke="#8d6b51" stroke-width="3"/>
+    <g fill="#d9e4df"><path d="M26 91h95l-13 18H40z"/><rect x="50" y="74" width="41" height="18"/></g>
+    <text x="95" y="137" text-anchor="middle" font-size="21" font-family="Georgia,serif" fill="#243330">Port & Harbor 港口</text>
+  </g>
+
+  <g stroke="#f1efe4" stroke-width="8" fill="none" opacity=".95"><path d="M692 478c91 23 154 17 231-18 62-28 119-29 196-5"/></g>
+  <g stroke="#515957" stroke-width="3" fill="none"><path d="M692 472c91 23 155 17 232-18 62-28 119-29 196-5"/></g>
+  <g stroke="#515957" stroke-width="2" opacity=".75"><path d="M767 467v-57M797 459v-69M827 450v-79M857 440v-82M887 426v-74"/></g>
+  <text x="897" y="430" font-size="19" font-family="Georgia,serif" fill="#25312f">Cross-sea Bridge 跨海桥</text>
+
+  <g fill="#f4f0e6" opacity=".9">
+    <path d="M391 517l22-7 22 7-22 7z"/><path d="M449 535l22-7 22 7-22 7z"/><path d="M747 526l22-7 22 7-22 7z"/>
+  </g>
+  <g stroke="#e8e4d6" stroke-width="2" opacity=".75"><path d="M411 525c21 18 39 22 57 19"/><path d="M767 534c19 16 39 19 58 17"/></g>
+
+  <g font-family="Georgia,serif" fill="#292820">
+    <text x="70" y="88" font-size="49" letter-spacing="3">XIAMEN INFRASTRUCTURE</text>
+    <text x="74" y="123" font-size="27">厦门 · 基础设施强化版</text>
+    <text x="968" y="685" font-size="24">TAIWAN STRAIT</text>
+    <text x="1015" y="714" font-size="19">台湾海峡</text>
+  </g>
+  <g transform="translate(615 517)">
+    <path d="M0-21l6 14 15 1-12 10 4 15-13-8-13 8 4-15-12-10 15-1z" fill="#9d342d"/>
+    <text x="28" y="8" font-size="30" font-family="Georgia,serif" fill="#28251f">Xiamen 厦门</text>
+  </g>
+
+  <g transform="translate(1090 88)" stroke="#574c3e" fill="none" stroke-width="2">
+    <circle r="38"/><path d="M0-48V48M-48 0H48"/><path d="M0-38l8 28-8-5-8 5z" fill="#574c3e"/>
+    <text x="-7" y="-57" fill="#574c3e" stroke="none" font-size="18" font-family="Georgia,serif">N</text>
+  </g>
+</svg>
